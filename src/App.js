@@ -135,13 +135,13 @@ const Home = () => {
       <video className="video" src={test} autoPlay muted loop></video>
       <div className="wrapper">
         <h5 className="intro" ref={(el) => (intro = el)}>
-          <b>Front End Developer</b> 
+          {/* <b>Front End Developer</b> 
           <b className="intro2">Problem Solving Skills</b> 
           <b className="intro3">JavaScript</b> 
           <b className="intro4">HTML-CSS</b> 
           <b className="intro5">Responsive and Mobile Design</b> 
           <b className="intro6">Experience with CSS Preprocessors</b>
-          <b className="intro7">Front End Frameworks</b>
+          <b className="intro7">Front End Frameworks</b> */}
         </h5>
       </div>
       </div>);}
