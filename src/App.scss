@@ -195,7 +195,7 @@ header {
               padding: 0;
               li {
                 list-style: none;
-                font-size: 4.5rem;
+                font-size: 2rem;
                 font-weight: 700;
                 cursor: pointer;
                 height: 135px;
@@ -278,3 +278,34 @@ header {
     background-position: 0% 0%;
   }
 }
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+  header .hamburger-menu .menu-layer .wrapper .menu-links nav ul li a {
+    font-size: 2rem;
+  }
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+  header .hamburger-menu .menu-layer .wrapper .menu-links nav ul li a {
+    font-size: 3rem;
+  }
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+  header .hamburger-menu .menu-layer .wrapper .menu-links nav ul li a {
+    font-size: 4rem;
+  }
+ }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+  header .hamburger-menu .menu-layer .wrapper .menu-links nav ul li a {
+    font-size: 5rem;
+  }
+ }
