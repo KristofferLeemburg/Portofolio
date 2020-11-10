@@ -18,7 +18,7 @@ const App = () =>
                 <Route exact path="/" component={Home} />
                 <Route exact path="/about-me" component={About} />
                 <Route exact path="/contact-me" component={Contact} />
-                <Route exact path="/portofolio" component={Portofolio} />
+                <Route exact path="/portfolio" component={Portfolio} />
               </Switch>
             </div>
           </div>
@@ -117,10 +117,10 @@ const Contact = () => <div className="contactform">
         </MDBRow>
       </MDBRow>
     </MDBContainer></div>
-const Portofolio = () =>
+const Portfolio = () =>
   <div className="container">
-  <h1 className="portofolio-header">Random website generator.</h1>
-  <p className="portofolio-p">A website created as a reaction to the small bubble created by big tech companies</p>
+  <h1 className="portfolio-header">Random website generator.</h1>
+  <p className="portfolio-p">A website created as a reaction to the small bubble created by big tech companies</p>
   </div>
 const Home = () => {
   //Create a variable for dom nodes
