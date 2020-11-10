@@ -283,13 +283,19 @@ header {
   header .hamburger-menu .menu-layer .wrapper .menu-links nav ul li a {
     font-size: 2rem;
   }
+.container .wrapper .home p {
+    font-size: .75rem;
  }
+}
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) { 
   header .hamburger-menu .menu-layer .wrapper .menu-links nav ul li a {
     font-size: 3rem;
   }
+  .container .wrapper .home p {
+    font-size: 0.8rem;
+ }
  }
 
 // Large devices (desktops, 992px and up)
@@ -297,6 +303,9 @@ header {
   header .hamburger-menu .menu-layer .wrapper .menu-links nav ul li a {
     font-size: 4rem;
   }
+  .container .wrapper .home p {
+    font-size: 0.9rem;
+ }
  }
 
 // Extra large devices (large desktops, 1200px and up)
@@ -304,4 +313,7 @@ header {
   header .hamburger-menu .menu-layer .wrapper .menu-links nav ul li a {
     font-size: 5rem;
   }
+  .container .wrapper .home p {
+    font-size: 1rem;
+ }
  }
