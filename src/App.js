@@ -108,9 +108,9 @@ const Contact = () => <div className="contactform">
               <p>kristofferleemburg@gmail.com</p>
             </li>
             <li>
-            <AiOutlineLinkedin  className="icon"/>
-            <AiFillGithub className="icon"/>
-            <AiOutlineMail className="icon"/>
+            <a href="http://www.linkedin.com/in/kristoffer-leemburg/"><AiOutlineLinkedin  className="icon"/></a>
+            <a href="https://github.com/KristofferLeemburg"><AiFillGithub className="icon"/></a>
+            <a href="mailto:kristofferleemburg@gmail.com"><AiOutlineMail className="icon"/></a>
             
             </li>
           </ul>
