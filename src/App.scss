@@ -34,7 +34,8 @@ body {
         letter-spacing: 0.3rem;
         text-transform: uppercase;
         font-weight: 500;
-        // margin-left: 100px;
+        margin-left: 40px;
+        margin-right: 40px;
       }
       h5 {
         margin-top: 260px;
@@ -44,6 +45,11 @@ body {
         color: rgb(223, 223, 223);
         margin-left: 100px;
       }
+      .profile{
+        width: 300px;
+        height: inherit;
+        margin-left: 40px;
+      }      
       .intro2{
         position: absolute;
         top: 80px;
@@ -248,10 +254,7 @@ header {
     }
   }
 }
-.profile{
-  width: 300px;
-  height: inherit;
-}
+
 .icon{
   font-size: 30px;
   margin: 10px;
