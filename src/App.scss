@@ -106,10 +106,12 @@ header {
     justify-content: space-between;
     align-items: center;
     .logo a {
+      position: relative;
       font-weight: 700;
       font-size: 2rem;
       text-decoration: none;
       color: teal; 
+      left: 40px;
    
     }
     .logo a:hover {
