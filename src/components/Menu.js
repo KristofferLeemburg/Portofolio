@@ -63,7 +63,7 @@ const Menu = ({ state }) => {
                       ref={(el) => (line2 = el)}
                       to="/portfolio"
                     >
-                      Portofolio
+                      Portfolio
                     </Link>
                   </li>
                   <li>
