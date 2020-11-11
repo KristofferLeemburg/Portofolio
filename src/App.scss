@@ -12,7 +12,11 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.container {
+.container 
+{
+  padding-right: 0;
+  padding-left: 0;
+
   .video{
     // max-width: 100%;
     min-height: 100vh;
